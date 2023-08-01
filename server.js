@@ -6,7 +6,7 @@ const http = require('http');
 
 const app = express();
 
-const port = process.env.PORT || 80;
+const port = process.env.PORT || 8001;
 
 const index_direction = process.env.INDEX_DIRECTION;
 const index_path = path.join(__dirname, index_direction);
